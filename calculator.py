@@ -2,7 +2,7 @@ print('Enter function.')
 f = input()
 if f == '*':
     print('Enter variable 1')
-    a = (input())
+    a = int(input())
     print('Enter variable 2')
     b = int(input())
     print(a * b)
